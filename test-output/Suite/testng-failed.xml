@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test 1(failed)">
     <classes>
       <class name="rb.test1.LaunchApp">
         <methods>
-          <include name="doSignIn"/>
           <include name="doSignOut"/>
+          <include name="doSignIn"/>
+          <include name="launchChromeDriver"/>
+          <include name="teardown"/>
+          <include name="setup"/>
           <include name="website"/>
         </methods>
       </class> <!-- rb.test1.LaunchApp -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test 1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
