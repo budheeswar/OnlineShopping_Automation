@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T16:24:22 IST" name="Suite" finished-at="2023-04-07T16:24:52 IST" duration-ms="30073">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T16:24:22 IST" name="Test" finished-at="2023-04-07T16:24:52 IST" duration-ms="30073">
+      <class name="rb.test1.Men">
+        <test-method signature="clickMen()[pri:4, instance:rb.test1.Men@3023df74]" started-at="2023-04-07T16:24:45 IST" name="clickMen" finished-at="2023-04-07T16:24:52 IST" duration-ms="7425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMen -->
+      </class> <!-- rb.test1.Men -->
+      <class name="rb.test1.LaunchApp">
+        <test-method signature="launchChromeDriver()[pri:1, instance:rb.test1.LaunchApp@38d8f54a]" started-at="2023-04-07T16:24:22 IST" name="launchChromeDriver" finished-at="2023-04-07T16:24:27 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeDriver -->
+        <test-method signature="website()[pri:2, instance:rb.test1.LaunchApp@38d8f54a]" started-at="2023-04-07T16:24:27 IST" name="website" finished-at="2023-04-07T16:24:29 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- website -->
+        <test-method signature="doSignIn()[pri:3, instance:rb.test1.LaunchApp@38d8f54a]" started-at="2023-04-07T16:24:29 IST" name="doSignIn" finished-at="2023-04-07T16:24:37 IST" duration-ms="7538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignIn -->
+        <test-method signature="doSignOut()[pri:4, instance:rb.test1.LaunchApp@38d8f54a]" started-at="2023-04-07T16:24:37 IST" name="doSignOut" finished-at="2023-04-07T16:24:45 IST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignOut -->
+      </class> <!-- rb.test1.LaunchApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
